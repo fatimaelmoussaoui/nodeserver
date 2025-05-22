@@ -14,10 +14,10 @@ app.use(express.json());
 
 // PostgreSQL connection
 const pool = new Pool({
-  user: 'postgres',
-  host: 'localhost',
-  database: 'sheetscraft',
-  password: '',  // Make sure to use your actual password
+  user: 'hicelh_sheetcraft',
+  host: 'uk1.pgsqlserver.com',
+  database: 'hicelh_sheetcraft',
+  password: 't8mt6J3GB$',  
   port: 5432,
 });
 
